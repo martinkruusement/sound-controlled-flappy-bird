@@ -1,0 +1,18 @@
+{
+  "name": "microphone-controlled-flappy-bird",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "AI generated web-based Flappy Bird game controlled by microphone input",
+  "type": "module",
+  "runtime": "bun",
+  "scripts": {
+    "setup-cert": "bun run generate-cert.js",
+    "start": "bun run server.js"
+  },
+  "dependencies": {
+    "bun": "latest"
+  },
+  "devDependencies": {
+    "@flydotio/dockerfile": "^0.5.8"
+  }
+}
